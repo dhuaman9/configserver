@@ -31,8 +31,8 @@ eureka:
     registerWithEureka: true
     fetchRegistry: false
     serviceUrl:
-      #defaultZone: http://${info.runtime.environment.hosts.eureka}:10401/ms365/eurekaserver/eureka
-      defaultZone:http://localhost:8761/eureka
+      defaultZone: http://${info.runtime.environment.hosts.eureka}:10401/ms365/eurekaserver/eureka
+      #defaultZone:http://localhost:8761/eureka
       
     healthCheck:
       enabled: true
